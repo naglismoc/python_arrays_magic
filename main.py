@@ -76,3 +76,20 @@ for vidinis_masyvukas in arr_2d:
 print(sum)
 print(count)
 print(sum / count)
+
+for x in range(10): #0, 1, 2, 3, 4, 5...
+    for y in range(10):
+        print("x="+str(x) +"+y="+str(y), end=" ")
+    print()
+
+students = [
+    ["jonas","jonauskas",24],
+    ["petras","petrauskas",26],
+    ["Viktoras","jakubauskas",38],
+    ["Juozapas","sabonis",42],
+]
+
+for student in students:
+    for info in student:
+        print(info, end=", ")
+    print()
